@@ -1,0 +1,43 @@
+
+
+
+
+.sea {
+  
+}
+@media screen and (min-width: 1025px) {
+
+
+  .sea {
+    height: 40%;
+   
+    
+  }
+  
+  
+  }
+  
+  
+
+  
+  .welcome {
+    font-size: large;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .try{
+    font-size: large;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .webgl {
+    margin-bottom: 100vh;
+    
+  }
+  
+  .description {
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
