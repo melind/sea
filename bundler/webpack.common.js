@@ -53,14 +53,6 @@ module.exports = {
                     'css-loader'
                 ]
             },
-            // Shaders
-            {
-                test: /\.(glsl|vs|fs|vert|frag)$/,
-                exclude: /node_modules/,
-                use: [
-                    'raw-loader'
-                ]
-            },
 
             // Images
             {
@@ -89,6 +81,15 @@ module.exports = {
                             outputPath: 'assets/fonts/'
                         }
                     }
+                ]
+            },
+
+            // Shaders
+            {
+                test: /\.(glsl|vs|fs|vert|frag)$/,
+                exclude: /node_modules/,
+                use: [
+                    'raw-loader'
                 ]
             }
         ]

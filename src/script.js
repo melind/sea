@@ -103,10 +103,10 @@ export default NotFound;*/
 
 
 import './index.css';
-import * as THREE from 'three';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
-import { DRACOLoader } from 'three/examples/jsm/loaders/DRACOLoader.js';
+import * as THREE from '../node_modules/three/build/three.module.js';
+import { OrbitControls } from '../node_modules/three/examples/jsm/controls/OrbitControls.js';
+import { GLTFLoader } from '../node_modules/three/examples/jsm/loaders/GLTFLoader.js';
+import { DRACOLoader } from '../node_modules/three/examples/jsm/loaders/DRACOLoader.js';
 import firefliesVertexShader from './shaders/fireflies/vertex.js';
 import firefliesFragmentShader from './shaders/fireflies/fragment.js';
 import alcoolVertexShader from './shaders/alcool/vertex.js';
@@ -114,7 +114,7 @@ import alcoolFragmentShader from './shaders/alcool/fragment.js';
 
 
 
-  
+
      
 /**
  *   THREE JS
